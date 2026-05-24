@@ -1,0 +1,10 @@
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = "dist"
+
+# Redirect rules to prevent 404 errors on browser page reloads in Single Page Applications
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

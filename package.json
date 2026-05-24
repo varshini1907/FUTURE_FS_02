@@ -1,0 +1,13 @@
+{
+  "name": "clientflow-pro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ClientFlow CRM - SaaS CRM platform",
+  "scripts": {
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "node backend/server.js",
+    "build:frontend": "npm run build --prefix frontend",
+    "start:backend": "node backend/server.js"
+  }
+}
